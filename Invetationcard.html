@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <title>Event Invitation</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f7f7f7, #e3e3e3);
+      color: #333;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .container:hover {
+      transform: scale(1.02);
+    }
+
+    /* Header Section */
+    .header {
+      background: linear-gradient(90deg, #e9ecef, #343a40);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-family: "Dancing Script", serif;
+      font-weight: bold;
+    }
+
+    /* Content Section */
+    .content {
+      padding: 20px 30px;
+      background: url(https://img.freepik.com/premium-photo/luxury-invitation-card-floral-frame-blue-velvet-background_776894-37568.jpg) no-repeat center/cover;
+      color: white;
+      opacity:1;
+    }
+
+    .content p {
+      font-size: 1.5rem;
+      font-family: "Vollkorn", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .event-details {
+      margin: 20px 0;
+    }
+
+    .event-details h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .event-details p {
+      margin: 8px 0;
+      font-size: 1rem;
+    }
+
+    /* Call-to-Action Button */
+    .cta {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .span_color{
+      color: red;
+      font-weight: 600;
+      font-size: 1.3rem;
+    }
+    .cta a {
+      display: inline-block;
+      background: #1b4332;
+      color: white;
+      padding: 12px 25px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 10px rgba(15, 98, 57, 0.3);
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+
+    .cta a:hover {
+      background: #42d213;
+      box-shadow: 0 6px 15px rgba(111, 236, 15, 0.5);
+    }
+
+    /* Footer Section */
+    .footer {
+      background: black;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: white;
+    }
+
+    .footer a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        margin: 20px;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+
+      .cta a {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 1.8rem;
+      }
+
+      .content p {
+        font-size: 0.9rem;
+      }
+
+      .cta a {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Join Us</h1>
+    </div>
+    <div class="content">
+      <marquee behavior="" direction="">
+        <h3>You and your family must definitely come.</h3>
+      </marquee>
+      <h1 style="text-align: center;">PARTY INVITATION</h1>
+      <p>Acting as a formal announcement for your nuptial celebrations, the wedding invitation wording choice is a
+        reflection of your personal style whilst setting the tone for your special day theme. After selecting the
+        desired design every couple is then faced with the complicated decision on how they’d like to present their
+        invite wording.</p>
+
+      <div class="event-details">
+        <h2 style="text-align: center;">Event Details</h2>
+        <p style="font-size: 1.1rem;"><strong>Date:</strong> <span class="span_color">January 26, 2025</span></p>
+        <p style="font-size: 1.1rem;"><strong>Time:</strong> <span class="span_color">6:00 PM</span></p>
+        <p style="font-size: 1.1rem;">Location: <span class="span_color">Chandannagar Nabagram, Near CMDA park</span></p>
+      </div>
+
+      <div class="cta">
+        <a href="#" target="">Please RSVP</a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>For more information, contact us at <a href="mailto:sahsubham962@gmail.com">sahsubham962@gmail.com</a>.</p>
+    </div>
+  </div>
+</body>
+
+</html>
